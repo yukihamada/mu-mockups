@@ -1,0 +1,99 @@
+{
+  "title": "MU — 円相ギフト / One in the Infinite",
+  "concept": "AIが毎時間つくって毎時間消える世界で、最初に支払ってくれた9人で円相が閉じる。9つの弧で1つの円。消えないように刻んだ。",
+  "version": "1.0",
+  "created_at": "2026-06-04",
+  "master_circle": {
+    "file": "_proof_full_circle.png",
+    "sha256": "7ee9fecb56b057a6a03a81d9f60f7ea9737b4f109792c691779552f7274b3c0f"
+  },
+  "arcs": [
+    {
+      "arc": 1,
+      "who": "KENNY",
+      "engraving": "/you No.001",
+      "design_sha256": "84db4219fffe932731990fceea4a5d33e11bd680c2109f1a27a06aad396bfbc8",
+      "design_love_sha256": "84bbedc7071f02d3ad839fb6c6b2a55e619485c8564aa3f788849baf483e792a"
+    },
+    {
+      "arc": 2,
+      "who": "HARLEY",
+      "engraving": "MUGEN No.132",
+      "design_sha256": "fd03ca925ce00114870360cab7330934a3da89bd6d1a51159728703999d2d18c",
+      "design_love_sha256": "69144f7f25bcb9570925a1b56e58b211ce70b1a5db3c6fdd6e3e76cee695512f"
+    },
+    {
+      "arc": 3,
+      "who": "YUJI",
+      "engraving": "MUGEN No.349",
+      "design_sha256": "4ad4c250a797a49729078b74d2928a508ebe1bab88fd4b2174ac1e2416acd1a9",
+      "design_love_sha256": "13fe6060de4355b8d98d021fb2c48474ac02f294319e63b7b0daa7706d75b622"
+    },
+    {
+      "arc": 4,
+      "who": "YAMANO",
+      "engraving": "MUGEN No.519",
+      "design_sha256": "53439ce6fef4d9e9ce876f32e347d3b02f98f3b9d42bd64e6d30a22fd40696af",
+      "design_love_sha256": "7180fe089c2918e47dac0d004991c195b0954136a386f40d3f9d11934630aa95"
+    },
+    {
+      "arc": 5,
+      "who": "M.I",
+      "engraving": "MUGEN No.008",
+      "design_sha256": "8aa1fa3f38c21efd03ca5732e1f5ae7238a47eb0950b8d53511b805e68a184d3",
+      "design_love_sha256": "7552845a014ec86cb957a233f9844f0b9e4bd6b2b4032d21b302f0a6c52268d9"
+    },
+    {
+      "arc": 6,
+      "who": "IMOTO",
+      "engraving": "MUON No.003",
+      "design_sha256": "c3ed7f370c5e4eda31e9ea5c1c90014f07491112a9021d31dade888957a59cc1",
+      "design_love_sha256": "f74216a2e0cef78f1537ac3ddb8926256d00ad75193c62e6a2cd8f37ceeae5d9"
+    },
+    {
+      "arc": 7,
+      "who": "KENNY",
+      "engraving": "MUON No.003",
+      "design_sha256": "10ad7b7a8a07641e20cc677efc318f0341fa52b2d16f32b7947e27301937831f",
+      "design_love_sha256": "69784f5a1bb288af3af9d8c51a49a0c117f03fe8503c999c3c1d47a2e6c5334d"
+    },
+    {
+      "arc": 8,
+      "who": "LEAD7",
+      "engraving": "/you No.019",
+      "design_sha256": "6dbc05be7fcede0cff8a6e1d77d6feb7199287c2fac0acf7ad85d4514ce064b0",
+      "design_love_sha256": "015d8791df6e04701f3f73c7399f6abfe37ad68515b7c7e49db562152119cd19"
+    },
+    {
+      "arc": 9,
+      "who": "IIDA",
+      "engraving": "ELEPOTE 001",
+      "design_sha256": "92e0a0238270913baa9f4a58600e41eee1f2c1a1c0ce7f3ed727ab838735a2bf",
+      "design_love_sha256": "ec0e23d034f4832310d2cf31906394c3bc5daa0fe6f550bb07ee4963a6d897bb"
+    }
+  ],
+  "song": {
+    "title": "I LOVE YOU",
+    "play": "https://mu.koe.live/oto.html?s=i-love-you",
+    "arweave": "https://gateway.irys.xyz/5jsmQoNNekanEGMBUEhSLoZyxGXSDZL5taMZfwwrEC1c/i-love-you.mp3"
+  },
+  "anchors": [
+    {
+      "chain": "solana-mainnet",
+      "memo_program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "tx": "2doSFaBwa35J6Cvj6nm6ZWdLfRHHg8ujwky4PALNYbicT3Fjva5J5zPYAWNPJwX9cU9yceoVTcGpVN2XKo8XLQEW",
+      "note": "master_circle sha256 を刻印。memo接頭辞は共有スクリプト由来のbim.house|(MUの記録・slugで識別)"
+    }
+  ],
+  "git": {
+    "repo": "github.com/yukihamada/mu-mockups",
+    "path": "circle/"
+  },
+  "attestation": {
+    "alg": "ed25519",
+    "manifest_sha256": "2db2d0120927a60bae903b546e914367cf426b95e5357c95d599e96cc80d1a09",
+    "signed_by": "MU (濱田優貴)",
+    "pubkey_ed25519_hex": "873de51e1ed74b9ce346d96bed50d366b51428480b4a5f8d59014be6a17a0652",
+    "signature_hex": "0140ff8503570c0507be32d610b6bf44b39754b7619f852129c5526820abea63b5eaebd5942264b9ca87a77639b7f22d4954bb2f132d2c0d555426c78cc93d05"
+  }
+}
